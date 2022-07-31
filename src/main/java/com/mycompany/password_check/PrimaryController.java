@@ -37,7 +37,7 @@ public class PrimaryController implements Initializable{
         int count1=0,count2=0;
         boolean s = false;
         
-        //userPassword = userPassword.toLowerCase();
+     
         
         for(int i=0; i<pass.length(); i++)
         {
