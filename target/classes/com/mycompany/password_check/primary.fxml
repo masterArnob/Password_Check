@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="402.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.password_check.PrimaryController">
+   <children>
+      <Label layoutX="69.0" layoutY="111.0" text="Paassword" />
+      <Button fx:id="Check" layoutX="153.0" layoutY="165.0" mnemonicParsing="false" onAction="#doCheck" text="Check" />
+      <TextField fx:id="UserPassword" layoutX="145.0" layoutY="107.0" promptText="Enter Password" />
+      <Label fx:id="Result" layoutX="126.0" layoutY="228.0" prefHeight="18.0" prefWidth="123.0" />
+   </children>
+</AnchorPane>
